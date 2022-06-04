@@ -34,7 +34,7 @@
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 40%;
-    z-index: 100;
+    z-index: 10;
     color: #fff;
     text-align: center;
     margin-left: auto;
@@ -58,10 +58,11 @@
     font-size: 4rem;
     letter-spacing: 0.08em;
     font-weight: 900;
-    line-height: 30px;
+    line-height: 50px;
 }
 .p {
+    margin-top: 40px;
     font-size: 1.5rem;
     letter-spacing: 0.08em;
-    line-height: 30px;
+    line-height: 40px;
 }

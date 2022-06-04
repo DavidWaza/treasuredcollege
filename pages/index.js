@@ -1,12 +1,11 @@
-import Head from "next/head";
-// import Image from 'next/image'
-import styles from "../styles/Home.module.css";
-import Nav from "../component/Header/Nav";
+import About from '../component/About/index'
+import Goals from '../component/Goals/index'
 
 export default function Home() {
   return (
     <main>
-      
+      <About />
+      <Goals />
     </main>
   );
 }

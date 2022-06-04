@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+.container {
+  padding: 40px 0px;
+  width: 100%;
+}
+.missionContainer {
+  background-color: #1c1b3b;
+}
+.h1 {
+    display: flex;
+  color: white;
+  text-align: justify;
+  padding: 20px 40px;
+  font-stretch: expanded;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+  font-family: "Montserrat", sans-serif;
+}
+.contentWrapper {
+  background-color: #b82341;
+  padding: 20px 40px;
+  height: calc(30vh - 1.2rem);
+}
+.Content {
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+  font-family: "Montserrat", sans-serif;
+}
+.icon {
+    padding-right:20px;
+}

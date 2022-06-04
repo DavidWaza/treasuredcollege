@@ -10,7 +10,7 @@ import navStyles from "../../styles/Header.module.css";
 const links = (
   <ul>
     <li key="blog-menu">
-      <a className={`${navStyles.links}`} href={`${process.env.NEXT_PUBLIC_BASE_URL}/about`}>
+      <a className={`${navStyles.links}`} href={`${process.env.NEXT_PUBLIC_BASE_URL}/#about`}>
         About Us
       </a>
     </li>
