@@ -8,7 +8,7 @@ import Bino from "../../images/bino.png";
 const index = () => {
   return (
     <Container>
-      <Row>
+      <Row className="g-1">
         <Col sm={6}>
           <div className={`${bodyStyles.container}`}>
             <div className={`${bodyStyles.missionContainer}`}>

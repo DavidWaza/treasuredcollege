@@ -12,7 +12,7 @@
   content: "";
   transition: 300ms;
   height: 5px;
-  background-color: #62dafb;
+  background-color: #b82341;
   position: absolute;
   opacity: 0.75;
   letter-spacing: 0.05em;
@@ -59,6 +59,7 @@
     letter-spacing: 0.08em;
     font-weight: 900;
     line-height: 50px;
+    /* color: #b82341; */
 }
 .p {
     margin-top: 40px;

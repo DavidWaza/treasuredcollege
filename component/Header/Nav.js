@@ -10,22 +10,34 @@ import navStyles from "../../styles/Header.module.css";
 const links = (
   <ul>
     <li key="blog-menu">
-      <a className={`${navStyles.links}`} href={`${process.env.NEXT_PUBLIC_BASE_URL}/#about`}>
+      <a
+        className={`${navStyles.links}`}
+        href={`${process.env.NEXT_PUBLIC_BASE_URL}/#about`}
+      >
         About Us
       </a>
     </li>
     <li key="about-menu">
-      <a className={`${navStyles.links}`} href={`${process.env.NEXT_PUBLIC_BASE_URL}/academics`}>
+      <a
+        className={`${navStyles.links}`}
+        href={`${process.env.NEXT_PUBLIC_BASE_URL}/academics`}
+      >
         Academics
       </a>
     </li>
     <li key="playground-menu">
-      <a className={`${navStyles.links}`} href={`${process.env.NEXT_PUBLIC_BASE_URL}/events`}>
+      <a
+        className={`${navStyles.links}`}
+        href={`${process.env.NEXT_PUBLIC_BASE_URL}/events`}
+      >
         Activities
       </a>
     </li>
     <li key="mistakes">
-      <a className={`${navStyles.links}`} href={`${process.env.NEXT_PUBLIC_BASE_URL}/portal`}>
+      <a
+        className={`${navStyles.links}`}
+        href={`${process.env.NEXT_PUBLIC_BASE_URL}/portal`}
+      >
         Portal
       </a>
     </li>
