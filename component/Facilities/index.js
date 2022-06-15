@@ -73,7 +73,7 @@ const Index = () => {
         <Col sm={4}>
           <div className={styles.fac}>
             <Image src={Class} alt="logo" />
-            <div className={styles.facContent}>
+            <div className={`${styles.facContent}`}>
               <p>furnished classroom</p>
               <p>Adequately furnished classrooms with good ventilators</p>
             </div>

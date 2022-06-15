@@ -15,7 +15,7 @@ const index = () => {
               <div className={`${abtStyles.underline}`} />
             </div>
           </Col>
-          <Col sm={6}>
+          <Col sm={8}>
             <div className={`${abtStyles.Content}`}>
               <p>
                 <span className={`${abtStyles.span}`}>

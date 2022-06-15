@@ -25,14 +25,29 @@
 }
 .facContent > p:nth-child(2) {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.13rem;
-  font-weight: 700;
+  font-size: 1.23rem;
+  font-weight: bold;
   color: #000;
   text-transform: capitalize;
+  /* display: none;`` */
+
 }
-.facContent div {
-  background-color: #000;
+.facContent:hover > p:nth-child(2) {
+  display: block;
+  transition: all 0.3s ease-out;
 }
+div .fac {
+  height: 50vh;
+  padding: 90px 80px;
+  /* transition: ; */
+}
+div .fac:hover{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 70px 80px;
+  height: 50vh;
+  transition: all 0.3s ease-out;
+}
+
 .facButton {
   display: flex;
   justify-content: center;

@@ -28,9 +28,9 @@ const links = (
     <li key="playground-menu">
       <a
         className={`${navStyles.links}`}
-        href={`${process.env.NEXT_PUBLIC_BASE_URL}/events`}
+        href={`${process.env.NEXT_PUBLIC_BASE_URL}/facility`}
       >
-        Activities
+        Facilities
       </a>
     </li>
     <li key="mistakes">
