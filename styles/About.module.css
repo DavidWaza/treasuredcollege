@@ -1,42 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins&display=swap");
+
 .main {
-    background-color: #f7f7f7;
-    height: auto;
-    width: 100%;
-    padding: 40px;
-    display: flex !important;
+  background-color: #f7f7f7;
+  height: auto;
+  width: 100%;
+  padding: 40px;
+  display: flex !important;
 }
 .mainText {
-    font-size: 2.5rem;
-    font-weight: bold;
-    letter-spacing: 0.08em;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
 }
 .underline {
-    margin-top: 13px;
-    height: 10px;
-    border-width: 20px;
-    background-color: #b82341;
-    width: 50%;
+  margin-top: 13px;
+  height: 10px;
+  border-width: 20px;
+  background-color: #b82341;
+  width: 50%;
 }
 .Content {
-    font-size: 1.3rem;
-    font-weight: normal;
-    letter-spacing: 0.05em;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: none;
-    color: #333333;
+  font-size: 1.3rem;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: none;
+  color: #333333;
 }
 .span {
-    font-weight: bold;
-    text-transform: capitalize;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 .header {
-    font-size: 2rem;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
-    color: #050505;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  color: #050505;
+}
+
+/* about page */
+.abtBg {
+  background-color: #f2f2f2;
+  height: 30vh;
+  width: 100%;
+}
+.abtBg > h1 {
+  text-align: center;
+  color: #002749;
+  text-transform: capitalize;
+  font-family: "Monteserrat", sans-serif;
+  letter-spacing: 0.05rem;
+  line-height: 1.2;
+  padding: 8rem;
+}
+.parallax {
+  background-attachment: fixed;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)),
+    url("../images/1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+}
+.parallax > h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Monteserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.09rem;
+  line-height: 1.2em;
+  padding: 5rem;
+}
+.pargph {
+  text-align: center;
+  color: #002749;
+  margin-top: 2rem;
+}
+.pargph > p {
+  font-size: 1.1em;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.08rem;
+}
+.line {
+  border: 2px solid red;
+  width: 150px;
+  display: flex;
+  margin: 20px auto;
+}
+.container {
+  margin-top: 20px;
+}
+.intro {
+  padding: 0rem 5rem;
+}
+.intro > p:nth-child(1) {
+  font-family: 'Monteserrat', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.846153846;
+  letter-spacing: 0.09rem;
+  color: #545454;
+  text-transform: uppercase;
+}
+.intro > p:nth-child(2) {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    letter-spacing: 0.08rem;
+    color: #545454;
+    text-transform: uppercase;
+}
+.intro > p:nth-child(3) {
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 0.08rem;
+    color: #545454;
+    
 }

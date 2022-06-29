@@ -12,7 +12,7 @@ const links = (
     <li key="blog-menu">
       <a
         className={`${navStyles.links}`}
-        href={`${process.env.NEXT_PUBLIC_BASE_URL}/#about`}
+        href='/aboutUs'
       >
         About Us
       </a>
@@ -20,7 +20,7 @@ const links = (
     <li key="about-menu">
       <a
         className={`${navStyles.links}`}
-        href={`${process.env.NEXT_PUBLIC_BASE_URL}/academics`}
+        href="/academics"
       >
         Academics
       </a>
@@ -28,7 +28,7 @@ const links = (
     <li key="playground-menu">
       <a
         className={`${navStyles.links}`}
-        href={`${process.env.NEXT_PUBLIC_BASE_URL}/facility`}
+        href="/facility"
       >
         Facilities
       </a>
@@ -36,7 +36,7 @@ const links = (
     <li key="mistakes">
       <a
         className={`${navStyles.links}`}
-        href={`${process.env.NEXT_PUBLIC_BASE_URL}/portal`}
+        href="/portal"
       >
         Portal
       </a>

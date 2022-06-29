@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 
 const index = () => {
   return (
-    <div className={`${abtStyles.main}`} id="about">
+    <div className={`${abtStyles.main}`}>
       <Container fluid>
         <Row>
           <Col sm={4}>
@@ -29,7 +29,7 @@ const index = () => {
                 we dont just teach, but we educate and impact life moulding
                 qualities and attributes into our students. With our crop of
                 seasoned professionals and God-fearing teachers, coupled with
-                our modern teaching methodolgy that is aided by modern day
+                our modern teaching methodology that is aided by modern day
                 teaching technology (e-learning and other teaching techniques),
                 our students are assured of a solid foundation for an all round
                 success in life.
